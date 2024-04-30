@@ -37,13 +37,6 @@ class TodolistController extends Controller
                 "todolist" => $todolist,
                 "error" => "Todo is required"
             ]);
-            // } else if (strlen($todo) < 2) {
-            //     $todolist = $this->todolistService->getTodolist();
-            //     return response()->view("todolist.todolist", [
-            //         "title" => "Todolist",
-            //         "todolist" => $todolist,
-            //         "error" => "Todo minimal 2 karakter"
-            //     ]);
         }
 
         $this->todolistService->saveTodo(uniqid(), $todo);

@@ -13,7 +13,7 @@ class TodolistServiceTest extends TestCase
 {
     private TodolistService $todolistService;
 
-    protected function setUp(): void
+    protected function setUp():void
     {
         parent::setUp();
 
@@ -25,11 +25,11 @@ class TodolistServiceTest extends TestCase
     }
     public function testSaveTodo()
     {
-        $this->todolistService->saveTodo("2", "Gusti");
+        $this->todolistService->saveTodo("1", "Gusti");
 
         $todolist = Session::get("todolist");
-        foreach ($todolist as $value) {
-            self::assertEquals("2", $value['id']);
+        foreach ($todolist as $value){
+            self::assertEquals("1", $value['id']);
             self::assertEquals("Gusti", $value['todo']);
         }
     }
