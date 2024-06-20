@@ -10,9 +10,9 @@
 
 -   Upgarde project Laravel dari versi 9 ke versi 10
 
--   Link: https://laravel.com/docs/11.x/upgrade#main-content
+-   Link [upgrade](https://laravel.com/docs/11.x/upgrade#main-content)
 
--   Clone dari project sebelumnya, link: https://github.com/HOFii/Studi-Kasus-Laravel-Dasar
+-   Clone dari project sebelumnya, [project](https://github.com/HOFii/Studi-Kasus-Laravel-Dasar)
 
 -   Gunakan perintah `git clone` "url repository yang ingin di clone" nama folder.
 
